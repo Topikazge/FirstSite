@@ -40,11 +40,13 @@ nav ul li a{
 .hello {
     font-size: 36px;
     color: rgb(167, 171, 183);
+    margin-bottom: 9px;
 }
 
 h1 {
     font-size: 48px;
     color: rgb(255, 255, 255);
+    margin-top: 9px;
 }
 
 .about-right{

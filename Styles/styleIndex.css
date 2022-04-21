@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(44, 50, 72);
+}
+div{
+    border: 2px solid red;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 0;
+}
+nav ul li a{
+    color:rgb(255, 255, 255); ;
+    font-size: 20px;
+    margin-right: 1em;
+    text-decoration: none;
+}
+#Contact-Text{
+    font-size: 32px;
+    color: rgb(167, 171, 183);
+}
+
+#info-about > ul{
+    margin-left: 0; 
+    padding-left: 0;
+}
+#info-about > ul li {
+    color: rgb(167, 171, 183);
+    font-size: 24px;
+    margin-bottom: 1em;
+    list-style-type: none;
+}
+
+#no-nav{
+    margin-top: 165px;
+}
+
+#about {
+    display: flex;
+}
+
+#about-right{
+    width: 100%;
+    display: flexbox;
+    margin-left: 40px;
+}
+
+#about-left{
+    width: 60%;
+}
+
+#hello {
+    font-size: 36px;
+    color: rgb(167, 171, 183);
+    margin-bottom: 9px;
+}
+
+h1 {
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    margin-top: 9px;
+}
+
+#Icon-Contact > ul > li > img{
+    width: 100px;
+    height: 100px;
+}
+
+#Icon-Contact > ul > li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 29px;
+}
+
+#Icon-Contact > ul > li > img{
+    width: 80px;
+    height: 80px;
+}
+
+#photo-men{
+    width: 100%;
+    height: 100%;
+}
+
+.rectangle{
+    background-color: rgb(255, 255, 255);
+    /*background: rgb(106, 124, 174);*/
+}
+
+#rectangle-min{
+    width: 24px;
+    height: 100%;
+    margin-left: 9px;
+}
+
+#rectangle-average{
+    width: 81px;
+    height: 100%;
+    margin-left: 32px;
+}
+
+#rectangle-max{
+    width: 309px;
+    height: 100%;
+    margin-left: 32px;
+}

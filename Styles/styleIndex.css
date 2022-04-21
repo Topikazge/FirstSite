@@ -20,10 +20,6 @@ nav ul li a{
     margin-right: 1em;
     text-decoration: none;
 }
-#Contact-Text{
-    font-size: 32px;
-    color: rgb(167, 171, 183);
-}
 
 #info-about > ul{
     margin-left: 0; 
@@ -66,20 +62,26 @@ h1 {
     margin-top: 9px;
 }
 
-#Icon-Contact > ul > li > img{
-    width: 100px;
-    height: 100px;
+#Icon-Contact > ul{
+    list-style-type: none;
+    display: inline;
 }
 
 #Icon-Contact > ul > li {
     list-style-type: none;
     display: inline;
-    margin-left: 29px;
+    margin-right: 50px;
 }
 
 #Icon-Contact > ul > li > img{
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
+}
+
+#Contact-Text{
+    font-size: 32px;
+    color: rgb(167, 171, 183);
+    margin-top: 0%;
 }
 
 #photo-men{
@@ -88,14 +90,16 @@ h1 {
 }
 
 .rectangle{
-    background-color: rgb(255, 255, 255);
-    /*background: rgb(106, 124, 174);*/
+    /*background-color: linear-gradient(rgb(106, 124, 174),rgb(106, 124, 174)) ;
+    background: rgb(106, 124, 174);*/
+    background: rgb(106,124,174);
+background: linear-gradient(180deg, rgba(106,124,174,1) 0%, rgba(106,124,174,0.14329481792717091) 100%);
 }
 
 #rectangle-min{
-    width: 24px;
+    width: 28px;
     height: 100%;
-    margin-left: 9px;
+    margin-left: 49px;
 }
 
 #rectangle-average{
@@ -105,7 +109,10 @@ h1 {
 }
 
 #rectangle-max{
-    width: 309px;
+    width: 220px;
     height: 100%;
     margin-left: 32px;
+}
+table{
+    height: 100%;
 }

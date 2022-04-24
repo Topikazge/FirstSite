@@ -6,7 +6,8 @@ body {
     height: 100%;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -25,15 +26,16 @@ body {
     margin: 0 auto;
     padding: 0;
     height: 100%;
-   /* border: 2px solid green;*/
+    /* border: 2px solid green;*/
 }
-#about{
+
+#about {
     height: 100%;
-   /* border: 2px solid wheat;*/
+    /* border: 2px solid wheat;*/
 }
 
 div {
-   /* border: 2px solid red;*/
+    /* border: 2px solid red;*/
 }
 
 nav ul {
@@ -54,14 +56,14 @@ nav ul li a {
     text-decoration: none;
 }
 
-.rectagle_horizontal{
+.rectagle_horizontal {
     width: 92px;
     height: 2px;
     background-color: white;
     margin-top: 30px;
 }
 
-#info-about_text{
+#info-about_text {
     margin-top: 30px;
 }
 
@@ -93,7 +95,7 @@ nav ul li a {
     border-color: black;
 }
 
-#about-right > div {
+#about-right>div {
     height: 100%;
 }
 
@@ -105,7 +107,7 @@ nav ul li a {
     position: relative;
 }
 
-#greetings{
+#greetings {
     margin-top: 120px;
 }
 
@@ -116,20 +118,30 @@ nav ul li a {
     margin-bottom: 9px;
 }
 
-#text_i{
+#text_i {
     font-size: 48px;
     color: rgb(255, 255, 255);
     margin-top: 9px;
 }
 
-#Contact-Me{
+#Contact-Me {
     margin-top: 50px;
+}
+
+#Icon-Contact {
     margin-left: 0px;
 }
+
+#icon_table {
+    margin-left: 0px;
+    margin: 0px;
+}
+
 #Icon-Contact>ul {
     list-style-type: none;
     display: inline;
     margin-left: 0px;
+    padding-left: 15px;
 }
 
 #Icon-Contact>ul>li {
@@ -142,6 +154,7 @@ nav ul li a {
 #Icon-Contact>ul>li>img {
     width: 90px;
     height: 90px;
+
 }
 
 #Contact-Text {
@@ -153,13 +166,23 @@ nav ul li a {
 #photo-men {
     width: 100%;
     height: 100%;
+    
+}
+#infoi{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid red;
 }
 
-#rectangles{
-    margin-left: 50px;
-    left: -120px; 
-    top: 25px;
-    z-index: 1;
+#rectangles {
+    margin-left: 50px; 
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .rectangle {
@@ -191,8 +214,3 @@ table {
     height: 100%;
 }
 
-#photo-men{
-    z-index: 5;
-    left: -240px;
-     top: 50px; 
-}

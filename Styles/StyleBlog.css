@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(44, 50, 72);
+}
+
+#site {
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#navigator ul li {
+    display: inline-block;
+    margin-right: 0;
+}
+
+#navigator ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+.title_article {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 40px;
+    border-bottom: 2px solid orange;
+    margin-bottom: 31px;
+    text-align: left;
+}
+
+#articles {
+    align-self: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 64px;
+}
+
+#article {
+    display: inline-block;
+    vertical-align: middle;
+    width: 61%;
+}
+
+.text_article{
+    color: rgb(167, 171, 183);
+    font-size: 40px;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 31px;
+    text-align: left;
+
+}
+
+.blog_photo{
+    margin-top: 15px;
+}

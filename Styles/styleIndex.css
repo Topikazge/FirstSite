@@ -6,8 +6,7 @@ body {
     height: 100%;
 }
 
-html,
-body {
+html,body {
     margin: 0;
     padding: 0;
 }
@@ -34,9 +33,9 @@ body {
     /* border: 2px solid wheat;*/
 }
 
-div {
-    /* border: 2px solid red;*/
-}
+/*div {
+    border: 2px solid red;
+}*/
 
 nav ul {
     list-style: none;
@@ -50,7 +49,6 @@ nav ul li {
 
 nav ul li a {
     color: rgb(255, 255, 255);
-    ;
     font-size: 20px;
     margin-right: 1em;
     text-decoration: none;
@@ -87,17 +85,19 @@ nav ul li a {
     display: flex;
 }
 
+#no-navы {
+    height: 100%;
+}
+
 #about-right {
     width: 100%;
     display: flexbox;
-    margin-left: 150px;
+    padding-left: 150px;
     height: 100%;
     border-color: black;
 }
 
-#about-right>div {
-    height: 100%;
-}
+
 
 #about-left {
     width: 60%;
@@ -126,6 +126,7 @@ nav ul li a {
 
 #Contact-Me {
     margin-top: 50px;
+    height: 100%;
 }
 
 #Icon-Contact {
@@ -166,9 +167,10 @@ nav ul li a {
 #photo-men {
     width: 100%;
     height: 100%;
-    
+
 }
-#infoi{
+
+#infoi {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -178,7 +180,7 @@ nav ul li a {
 }
 
 #rectangles {
-    margin-left: 50px; 
+    margin-left: 50px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -213,4 +215,3 @@ nav ul li a {
 table {
     height: 100%;
 }
-

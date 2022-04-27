@@ -30,7 +30,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 40px;
-    border-bottom: 2px solid orange;
+   /* border-bottom: 2px solid orange;*/
+    text-decoration: 2px solid orange;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
     margin-bottom: 5px;
     text-align: left;
     margin-top: 0px;
@@ -89,7 +92,7 @@ body {
     margin: 0 0 0 0;
 }
 
-.table_article{
+.table_article {
     color: rgb(167, 171, 183);
     font-size: 32px;
     height: auto;

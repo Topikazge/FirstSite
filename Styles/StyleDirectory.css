@@ -63,20 +63,20 @@ body {
 
 #content_right {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
 }
 
 #nav_content {
     width: 165px;
-    height: 99%;
-    border: 1px solid purple;
+    height: auto;
+    background-color: #2C3248;
 }
 
 #content {
     width: 100%;
-    height: 99%;
+    height: auto;
     background-color: #C4C4C4;
 }
 
@@ -119,9 +119,8 @@ body {
 }
 
 #content_container {
-    border: 1px solid red;
     width: 90%;
-    height: 100%;
+    height: auto;
     padding-left: 40px;
 }
 
@@ -148,7 +147,7 @@ body {
     margin: 0px 0px 0px 0px;
 }
 
-.text_in_article {
+.text_article {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -166,7 +165,6 @@ body {
 .gutter {
     width: 8%;
     border-right: 8px solid #D63869;
-    ;
 }
 
 code {
@@ -181,8 +179,8 @@ code {
 }
 
 .Indentation {
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .dividing_line {
@@ -195,7 +193,18 @@ code {
 .sub_subject {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 24px;
     line-height: 29px;
+}
+
+.img_article {
+    width: 400px;
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+}
+
+.code_table {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }

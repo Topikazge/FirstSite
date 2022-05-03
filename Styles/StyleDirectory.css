@@ -78,9 +78,10 @@ body {
 }
 
 #nav_content {
-    width: 165px;
+    width: 200px;
     height: auto;
-    background-color: #2C3248;
+    background-color: #C4C4C4;
+    border-right: 1px solid black;
 }
 
 #content {
@@ -99,7 +100,8 @@ body {
 #nav_table a {
     display: block;
     padding: 0 10px;
-    color: #FFF;
+    font-family: 'Inter';
+    color: black;
     font-size: 20px;
     line-height: 60px;
     text-decoration: none;

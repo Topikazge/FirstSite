@@ -1,20 +1,26 @@
 html {
     height: 100%;
+    width: 100%;
 }
 
 body {
     background-color: rgb(44, 50, 72);
     height: 100%;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
 }
 
 #site {
     height: 100%;
     width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 #header {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 
@@ -33,32 +39,31 @@ body {
 #menuBlock {
     width: 100%;
     height: 50px;
-    display: flex;
-    justify-content: space-between;
     background-color: rgb(167, 171, 183);
 }
 
 
 #menumain {
-    margin: 0;
+    margin: 0px;
     padding: 0px 0px 0px 0px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: 40px;
     height: 100%;
     width: 100%;
 }
 
-#menuBlock>#menumain>li {
+#menumain li {
     display: inline;
-    /* Отображать как строчный элемент */
-    margin-right: 5px;
-    /* Отступ слева */
-    border: 1px solid #000;
-    /* Рамка вокруг текста */
-    padding: 3px;
-    /* Поля вокруг текста */
-    margin: 0px 0px 0px 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#menuBlock #menumain li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49px;
+    text-decoration: none;
+    color: #000000;
 }
 
 #content_right {
@@ -70,7 +75,7 @@ body {
     margin-top: 10px;
 }
 
-#content_directory{
+#content_directory {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -220,11 +225,11 @@ code {
     padding-bottom: 5px;
 }
 
-#nav_bottom{
+#nav_bottom {
     text-align: center;
 }
 
-#nav_bottom a{
+#nav_bottom a {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;

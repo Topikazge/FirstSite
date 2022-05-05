@@ -5,6 +5,24 @@
     <link rel="stylesheet" href="/Styles/StyleDirectory.css">
     <meta charset="UFT-8">
     <title>Справочник</title>
+    <script language="JavaScript">
+
+
+        // Показывает скрытое, скрывает видимое
+        function flipflop(id) {
+
+            // id -- идентификатор элемента, который надо скрыть или показать
+
+            // получаем этот элемент
+            element = document.getElementById(id);
+
+            // если таковой в документе существует
+            if (element)
+                // меняем ему видимость
+                element.style.display = element.style.display == "none" ? "" : "none";
+        }
+
+    </script>
 </head>
 
 <body>
@@ -36,14 +54,13 @@
                 <div id="nav_content">
                     <ul id="nav_table">
                         <li>
-                            <a href="#">Home</a>
-                            <ul class="sub_nav_table">
-                                <li><a href="#">Themes</a></li>
-                                <li><a href="#">Plugins</a></li>
-                                <li><a href="#">Tutorials</a></li>
+                            <p><a href="javascript:flipflop('animals');">Животные</a></p>
+                            <ul id="animals" style="display: none;">
+                                <li>мом</li>
+                                <li>дом</li>
+                                <li>хлм</li>
                             </ul>
                         </li>
-                        <li><a href="#">Home</a></li>
                         <li><a href="#">WordPress</a></li>
                         <li><a href="#">Graphic Design</a></li>
                         <li><a href="#">Inspiration</a></li>
@@ -113,7 +130,9 @@
                             <p class="Indentation text_article">Что потребуется для работы с HTML5? В первую очередь,
                                 текстовый редактор, чтобы набирать текст веб-страниц на html. На данный момент одним из
                                 самых простых и наиболее популярных текстовых редакторов является Notepad++, который
-                                можно найти по адресу <a href="http://notepad-plus-plus.org/">http://notepad-plus-plus.org/.</a> К его преимуществам можно отнести
+                                можно найти по адресу <a
+                                    href="http://notepad-plus-plus.org/">http://notepad-plus-plus.org/.</a> К его
+                                преимуществам можно отнести
                                 бесплатность, подсветка тегов html. В дальнейшем я буду ориентироваться именно на этот
                                 текстовый редактор.
                             </p>

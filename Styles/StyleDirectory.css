@@ -102,7 +102,6 @@ body {
     padding: 0;
     margin: 0;
     list-style: none;
-    position: relative;
 }
 
 #nav_table a {
@@ -115,26 +114,9 @@ body {
     text-decoration: none;
 }
 
-#nav_table ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-}
 
 #nav_table>li {
     position: relative;
-}
-
-#nav_table>li:hover .sub_nav_table {
-    display: block;
-}
-
-.sub_nav_table {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 20px;
-    padding: 20px 0px 0px 0px;
 }
 
 #content_container {

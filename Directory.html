@@ -5,24 +5,7 @@
     <link rel="stylesheet" href="/Styles/StyleDirectory.css">
     <meta charset="UFT-8">
     <title>Справочник</title>
-    <script language="JavaScript">
-
-
-        // Показывает скрытое, скрывает видимое
-        function flipflop(id) {
-
-            // id -- идентификатор элемента, который надо скрыть или показать
-
-            // получаем этот элемент
-            element = document.getElementById(id);
-
-            // если таковой в документе существует
-            if (element)
-                // меняем ему видимость
-                element.style.display = element.style.display == "none" ? "" : "none";
-        }
-
-    </script>
+    <script src="/Scripts/ListScript.js"></script>
 </head>
 
 <body>
@@ -53,19 +36,25 @@
             <div id="content_directory">
                 <div id="nav_content">
                     <ul id="nav_table">
-                        <li>
-                            <p><a href="javascript:flipflop('animals');">Животные</a></p>
-                            <ul id="animals" style="display: none;">
-                                <li>мом</li>
-                                <li>дом</li>
-                                <li>хлм</li>
+                        <li class="navTableLi">
+                            <a href="javascript:flipflop('list_introduction_html');">
+                                <!--   <div class="iconNavTableLi"></div>-->
+                                <span>Глава 1.Введение в HTML5<span>
+                            </a>
+                            <ul id="list_introduction_html" >
+                                <li><a>Что такое HTML</a></li>
+                                <li><a>Элементы и атрибуты</a></li>
+                                <li><a>Создание документа</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">WordPress</a></li>
-                        <li><a href="#">Graphic Design</a></li>
-                        <li><a href="#">Inspiration</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">About</a></li>
+                        <li class="navTableLi">
+                            <p><a href="javascript:flipflop('list_elemention_in_html');">Глава 2. Элементы в HTML5</a>
+                            </p>
+                            <ul id="list_elemention_in_html" style="display: none;">
+                                <li>Элемент head и метаданные веб-страницы</li>
+                                <li>Элементы группировки</li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <div id="content">

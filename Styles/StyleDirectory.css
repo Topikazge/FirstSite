@@ -107,11 +107,11 @@ body {
 #nav_table a {
     display: block;
     padding: 0 10px;
-    font-family: 'Inter';
     color: black;
-    font-size: 20px;
-    line-height: 60px;
+    font-size: 14px;
+    line-height: 17px;
     text-decoration: none;
+    font-family: 'Montserrat';
 }
 
 
@@ -129,6 +129,7 @@ body {
     font-size: 24px;
     line-height: 29px;
 }
+
 #content_container a {
     color: red;
 }
@@ -140,6 +141,7 @@ body {
 #content_container a:active {
     color: red;
 }
+
 #main_name_Article {
     text-align: center;
     font-family: 'Inter';
@@ -236,4 +238,19 @@ code {
     line-height: 29px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.iconNavTableLi {
+    background-image: url("/Image/plus.svg");
+    height: 16px;
+    width: 16px;
+    ;
+}
+
+.list_introduction_html {
+    display: none;
+}
+
+.list_introduction_html li>a:after {
+    text-decoration: none;
 }

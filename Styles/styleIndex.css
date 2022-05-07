@@ -6,7 +6,8 @@ body {
     height: 100%;
 }
 
-html,body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -219,4 +220,11 @@ table {
 
 #col-md-9 a.active {
     color: #654321;
-  }
+}
+
+#main_window_nav {
+    text-decoration-line: underline !important;
+    text-decoration: 3px solid #FFFFFF;
+    text-underline-offset: 10px;
+    margin-bottom: 10px;
+}

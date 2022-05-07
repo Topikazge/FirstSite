@@ -254,3 +254,10 @@ code {
 .list_introduction_html li>a:after {
     text-decoration: none;
 }
+
+#directory_nav{
+    text-decoration-line: underline !important;
+    text-decoration: 3px solid #FFFFFF;
+    text-underline-offset: 10px;
+    margin-bottom: 10px;
+}

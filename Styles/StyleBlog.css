@@ -101,3 +101,10 @@ body {
     text-align: left;
     font-family: 'Montserrat';
 }
+
+#blog_nav{
+    text-decoration-line: underline !important;
+    text-decoration: 3px solid #FFFFFF;
+    text-underline-offset: 10px;
+    margin-bottom: 10px;
+}

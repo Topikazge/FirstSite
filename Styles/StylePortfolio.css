@@ -48,11 +48,11 @@ body {
 #content_container {
     margin: auto;
     padding-top: 100px;
-    width: 80%;
+    width: 60%;
     height: 100%;
 }
 
-.projects_first_row{
+.row{
     display: flex;
     justify-content: space-between;
 }

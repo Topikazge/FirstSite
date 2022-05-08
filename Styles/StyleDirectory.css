@@ -111,18 +111,6 @@ body {
     line-height: 29px;
 }
 
-#content_container a {
-    color: red;
-}
-
-#content_container a:visited {
-    color: red;
-}
-
-#content_container a:active {
-    color: red;
-}
-
 #main_name_Article {
     text-align: center;
     font-family: 'Inter';
@@ -241,4 +229,9 @@ code {
     text-decoration: 3px solid #FFFFFF;
     text-underline-offset: 10px;
     margin-bottom: 10px;
+}
+
+#content a a.text:active, a.text:hover, a.text:visited, a:visited {
+  text-decoration: none;
+  color: rgb(55, 71, 131);
 }

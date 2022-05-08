@@ -5,13 +5,11 @@
     height: 75px;
 }
 
-#navigator{
+#navigator {
     height: 100%;
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
-    justify-items: center;
-    justify-content: center;
+    justify-content: end;
 }
 
 #navigator ul li {
@@ -26,15 +24,13 @@
     text-decoration: none;
 }
 
-#nav-main{
-    height: 75px !important;
-    text-align: center;
-    list-style: none;
-    border: 1px solid purple;
-
+#nav-main {
+    height: 30px !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-#otstyp{
+#otstyp {
     height: 75px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;

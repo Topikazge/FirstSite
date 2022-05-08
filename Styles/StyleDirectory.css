@@ -28,14 +28,13 @@ body {
 #menumain {
     margin: 0px;
     padding: 0px 0px 0px 0px;
-    height: 100%;
+    height: 50px;
     width: 100%;
 }
 
 #menumain li {
     display: inline-block;
-    height: 100%;
-    width: 20px;
+    border: 1px solid black;
 }
 
 #menuBlock #menumain>li>a {
@@ -96,9 +95,7 @@ body {
 }
 
 
-#nav_table>li {
-    position: relative;
-}
+
 
 #content_container {
     width: 90%;
@@ -213,7 +210,6 @@ code {
     background-image: url("/Image/plus.svg");
     height: 16px;
     width: 16px;
-    ;
 }
 
 .list_introduction_html {
@@ -224,14 +220,31 @@ code {
     text-decoration: none;
 }
 
-#directory_nav{
+#directory_nav {
     text-decoration-line: underline !important;
     text-decoration: 3px solid #FFFFFF;
     text-underline-offset: 10px;
     margin-bottom: 10px;
 }
 
-#content a a.text:active, a.text:hover, a.text:visited, a:visited {
-  text-decoration: none;
-  color: rgb(55, 71, 131);
+#content a a.text:active,
+a.text:hover,
+a.text:visited,
+a:visited {
+    text-decoration: none;
+    color: rgb(55, 71, 131);
+}
+
+.navTableLi {
+    margin-top: 10px;
+}
+
+.sub_divNavTableLi{
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+.sub_divNavTableLi li{
+    list-style-type: none;
+    margin-bottom: 5px;
 }

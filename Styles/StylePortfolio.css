@@ -58,12 +58,12 @@ body {
 }
 
 .project_block {
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 380px;
 }
 
 .project_img_div{
-    height: 240px;
+    height: 70%;
     width: 100%; 
 }
 
@@ -75,7 +75,7 @@ body {
 
 .project_description {
     background-color: white;
-    height: 60px;
+    height: 17%;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -99,7 +99,6 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 24px;
 }
 
 .text_data {
@@ -109,10 +108,22 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
 }
 
 .project_data_block {
     width: 25%;
     height: 100%;
+}
+
+.projects_second_row{
+    margin-top: 30px;
+}
+
+.project_block_description{
+    height: 100%;
+    width: 100%;
+}
+
+.jopa{
+    text-align: center;
 }

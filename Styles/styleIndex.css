@@ -95,7 +95,6 @@ nav ul li a {
 #about-right {
     width: 100%;
     display: flexbox;
-    padding-left: 150px;
     height: 100%;
     border-color: black;
 }
@@ -105,8 +104,6 @@ nav ul li a {
     margin-left: 0px;
     height: 100%;
     border-color: 1px yellow;
-    position: relative;
-    z-index: 10;
 }
 
 #greetings {
@@ -174,19 +171,11 @@ nav ul li a {
 #infoi {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
 }
 
 #rectangles {
     height: 100%;
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
 }
 
 .rectangle {

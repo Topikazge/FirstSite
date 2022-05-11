@@ -16,7 +16,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 40px;
-   /* border-bottom: 2px solid orange;*/
+    /* border-bottom: 2px solid orange;*/
     text-decoration: 2px solid orange;
     text-decoration-line: underline;
     text-underline-offset: 10px;
@@ -88,9 +88,19 @@ body {
     font-family: 'Montserrat';
 }
 
-#blog_nav{
+#blog_nav {
     text-decoration-line: underline !important;
     text-decoration: 3px solid #FFFFFF;
     text-underline-offset: 10px;
     margin-bottom: 10px;
+}
+
+.Indentation {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.video_blog_div{
+    display: flex;
+    justify-content: left;
 }

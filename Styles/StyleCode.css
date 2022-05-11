@@ -1,0 +1,15 @@
+.tag_code{
+    color: rgb(255, 255, 0);
+}
+
+.attribute{
+    color: rgb(255, 0, 0);
+}
+
+.content_attribute{
+    color: rgb(255, 0, 199);
+}
+
+.text_tag{
+    color: rgb(255, 255, 255);
+}

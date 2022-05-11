@@ -35,7 +35,7 @@ body {
     height: 100%;
 }
 
-.row{
+.row {
     display: flex;
     justify-content: space-between;
 }
@@ -45,9 +45,23 @@ body {
     height: 380px;
 }
 
-.project_img_div{
+.project_block:hover {
+    transform: scale(1.1);
+}
+
+.project_block a,
+a.text:active,
+a.text:hover,
+a.text:visited,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+.project_img_div {
     height: 70%;
-    width: 100%; 
+    width: 100%;
 }
 
 .project_img {
@@ -67,6 +81,7 @@ body {
 .text_in_project {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+    text-decoration: none;
 }
 
 .project_type_text {
@@ -76,6 +91,8 @@ body {
     font-size: 20px;
     line-height: 24px;
 }
+
+
 
 .project_name_text {
     font-family: 'Montserrat';
@@ -98,16 +115,16 @@ body {
     height: 100%;
 }
 
-.projects_second_row{
+.projects_second_row {
     margin-top: 30px;
 }
 
-.project_block_description{
+.project_block_description {
     height: 100%;
     width: 100%;
 }
 
-.jopa{
+.jopa {
     text-align: center;
     height: 100%;
 }

@@ -57,7 +57,7 @@ body {
 }
 
 .project_description {
-    background-color: white;
+    background-color: rgb(196, 196, 196);
     height: 17%;
     width: auto;
     display: flex;
@@ -109,4 +109,5 @@ body {
 
 .jopa{
     text-align: center;
+    height: 100%;
 }

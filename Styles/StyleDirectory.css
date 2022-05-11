@@ -252,3 +252,7 @@ a:visited {
 .SelectedText{
     font-weight: bold;
 }
+
+.main_chapter{
+    list-style-type: none;
+}

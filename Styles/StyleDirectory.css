@@ -97,6 +97,7 @@ body {
 
 
 
+
 #content_container {
     width: 90%;
     height: auto;
@@ -227,12 +228,13 @@ code {
     margin-bottom: 10px;
 }
 
-#content a a.text:active,
-a.text:hover,
-a.text:visited,
+#content a, a:active,
+a:hover,
+a:visited,
 a:visited {
     text-decoration: none;
     color: rgb(55, 71, 131);
+   
 }
 
 .navTableLi {

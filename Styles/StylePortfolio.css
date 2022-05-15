@@ -43,6 +43,8 @@ body {
 .project_block {
     width: 245px;
     height: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .project_block:hover {
@@ -127,4 +129,11 @@ a:visited {
 .jopa {
     text-align: center;
     height: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+    .project_block {
+        width: 225px;
+        height: 255px;
+    }
 }

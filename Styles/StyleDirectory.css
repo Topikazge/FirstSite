@@ -50,7 +50,7 @@ body {
     padding-right: 10px;
 }
 
-#menumain a, a:active, a:hover, a:visited, a:visited {
+#menumain a, a:active, a:visited {
     color: black;
     text-decoration: none;
 }
@@ -123,10 +123,6 @@ body {
     text-decoration: none;
     font-family: 'Montserrat';
 }
-
-
-
-
 
 #content_container {
     width: 90%;

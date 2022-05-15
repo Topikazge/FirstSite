@@ -89,25 +89,25 @@ nav ul li a {
 
 #no-navы {
     height: 100%;
-    padding-left: 200px;
+    padding-left: 90px;
 }
 
 #about-right {
-    width: 100%;
+    width: 50%;
     display: flexbox;
     height: 100%;
     border-color: black;
 }
 
 #about-left {
-    width: 55%;
+    width: 50%;
     margin-left: 0px;
     height: 100%;
     border-color: 1px yellow;
 }
 
 #greetings {
-    margin-top: 120px;
+    margin-top: 60px;
 }
 
 
@@ -173,10 +173,7 @@ nav ul li a {
     height: 100%;
 }
 
-#rectangles {
-    height: 100%;
-    width: 100%;
-}
+
 
 .rectangle {
     /*background-color: linear-gradient(rgb(106, 124, 174),rgb(106, 124, 174)) ;
@@ -217,3 +214,13 @@ table {
     text-underline-offset: 10px;
     margin-bottom: 10px;
 }
+
+
+/*@media screen and (max-width: 1400px){
+    #about-left{
+        width: 35%;
+    }
+    #about-right {
+
+    }
+}*/

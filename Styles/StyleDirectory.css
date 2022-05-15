@@ -50,7 +50,9 @@ body {
     padding-right: 10px;
 }
 
-#menumain a, a:active, a:visited {
+#menumain a,
+a:active,
+a:visited {
     color: black;
     text-decoration: none;
 }
@@ -233,12 +235,6 @@ code {
     margin-right: 5px;
 }
 
-.iconNavTableLi {
-    background-image: url("/Image/plus.svg");
-    height: 16px;
-    width: 16px;
-}
-
 .list_introduction_html {
     display: none;
 }
@@ -278,10 +274,47 @@ a:visited {
     margin-bottom: 5px;
 }
 
+.sub_divNavTableLi a {
+    padding: 0 0 0 5px !important;
+}
+
+.sub_divNavTableLi li p {
+    margin: 0;
+    padding: 0 0 0 5px;
+    font-size: 14px;
+}
+
+.sub_divNavTableLi li a {
+    display: flex !important;
+    flex-direction: row;
+}
+
 .SelectedText {
     font-weight: bold;
 }
 
 .main_chapter {
     list-style-type: none;
+}
+
+.divNavTableLi p {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.divNavTableLi a {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.folder_icon {
+    width: 15px;
+    height: 15px;
+    height: 100%;
+}
+
+.file__sub_divNavTableLi {
+    width: 15px;
+    height: 15px;
 }

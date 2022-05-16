@@ -137,3 +137,23 @@ a:visited {
         height: 255px;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .project_block {
+        width: 200px;
+        height: 230px;
+    }
+
+    .project_name_text {
+        font-size: 14px;
+    }
+
+    .project_type_text {
+        font-size: 14px;
+    }
+
+    .text_data {
+        font-size: 14px;
+    }
+
+}

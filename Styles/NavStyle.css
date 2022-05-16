@@ -17,6 +17,10 @@
     margin-right: 0;
 }
 
+#nav-main{
+    margin-right: 15px;
+}
+
 #navigator ul li a {
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -34,5 +38,9 @@
     height: 75px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+}
+
+#navigator ul li:hover {
+    transform: scale(1.05);
 }
 

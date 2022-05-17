@@ -60,11 +60,11 @@ nav ul li a {
     width: 92px;
     height: 2px;
     background-color: white;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 #info-about_text {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 #info-about>ul {
@@ -121,10 +121,11 @@ nav ul li a {
     font-size: 48px;
     color: rgb(255, 255, 255);
     margin-top: 9px;
+    margin-bottom: 20px;
 }
 
 #Contact-Me {
-    margin-top: 50px;
+    margin-top: 15px;
     height: 100%;
 }
 
@@ -154,13 +155,12 @@ nav ul li a {
 #Icon-Contact>ul>li>img {
     width: 90px;
     height: 90px;
-
 }
 
 #Contact-Text {
+    margin: 15px 0px 15px 0px !important;
     font-size: 42px;
     color: rgb(167, 171, 183);
-    margin-top: 0%;
 }
 
 #photo-men {
@@ -216,11 +216,9 @@ table {
 }
 
 
-/*@media screen and (max-width: 1400px){
-    #about-left{
-        width: 35%;
+@media screen and (max-width: 1400px) {
+    #Icon-Contact>ul>li>img {
+        width: 70px;
+        height: 70px;
     }
-    #about-right {
-
-    }
-}*/
+}

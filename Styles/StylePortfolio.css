@@ -38,6 +38,7 @@ body {
 .row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .project_block {
@@ -101,6 +102,7 @@ a:visited {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
+    align-items:flex-end;
 }
 
 .text_data {
@@ -117,14 +119,16 @@ a:visited {
     height: 100%;
 }
 
-.projects_second_row {
-    margin-top: 30px;
+.indent_no_first {
+    margin-top: 20px;
 }
 
 .project_block_description {
     height: 100%;
     width: 100%;
 }
+
+
 
 .jopa {
     text-align: center;
@@ -138,7 +142,7 @@ a:visited {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px)  {
     .project_block {
         width: 200px;
         height: 230px;
@@ -158,9 +162,11 @@ a:visited {
 
 }
 
-@media screen and (min-width:1000px) and (min-height: 500px){
+
+
+@media screen and (min-width: 1700px) and (min-height: 500px) {
     #content_container{
-        width: 80%;
+        width: 60%;
     }
     .project_block {
         width: 315px;
@@ -178,3 +184,50 @@ a:visited {
         font-size: 24px;
     }
 }
+
+@media screen and (max-width: 1000px) and (max-height: 900px)  {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #content_container{
+    }
+    .project_block {
+        width: 300px;
+        height: 335px;
+    }
+    .project_name_text {
+        font-size: 24px;
+    }
+
+    .project_type_text {
+        font-size: 24px;
+    }
+
+    .text_data {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 2000px) and (min-height: 1000px)  {
+    #content_container{
+    }
+    .project_block {
+        width: 515px;
+        height: 535px;
+    }
+    .project_name_text {
+        font-size: 34px;
+    }
+
+    .project_type_text {
+        font-size: 34px;
+    }
+
+    .text_data {
+        font-size: 34px;
+    }
+}
+

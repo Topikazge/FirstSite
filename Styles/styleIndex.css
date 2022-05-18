@@ -89,7 +89,7 @@ nav ul li a {
 
 #no-navы {
     height: 100%;
-    padding-left: 90px;
+    padding-left: 50px;
 }
 
 #about-right {
@@ -225,6 +225,7 @@ table {
 
 #stickers_my_photo__abot_left{
     position: relative;
+    height: 100%;
 }
 
 .sticker__div{

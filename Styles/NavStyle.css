@@ -43,4 +43,25 @@
 #navigator ul li:hover {
     transform: scale(1.05);
 }
+@media screen and (min-width: 2000px) and (min-height: 700px)  {
+
+    #header{
+       height: 150px !important; 
+    }
+
+    #nav-main a{
+        font-size: 38px !important;
+    }
+}
+
+@media screen and (min-width: 1700px) and (min-height: 700px)  {
+
+    #header{
+       height: 125px !important; 
+    }
+
+    #nav-main a{
+        font-size: 27px !important;
+    }
+}
 

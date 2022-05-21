@@ -1,9 +1,14 @@
-function flipflop(id) {
-    // id -- идентификатор элемента, который надо скрыть или показать
-    // получаем этот элемент
+function flipflop(id, idImg) {
+    closeFolder = "/Image/CloseFolder.svg";
+    openFolder = "/Image/OpenFolder.svg";
     element = document.getElementById(id);
-    // если таковой в документе существует
-    if (element)
-        // меняем ему видимость
-        element.style.display = element.style.display == "none" ? "" : "none";
+    if (element.style.display == "none") {
+        element.style.display = "";
+        document.getElementById(idImg).src = openFolder;
+    }
+    else{
+        element.style.display = "none"
+        document.getElementById(idImg).src = closeFolder;
+    }
+
 }

@@ -2,20 +2,41 @@
 <html lang="ru-RU">
 
 <head>
+    <title>Главная</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UFT-8">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="/Image/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Image/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Image/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Scripts/Favicon/site.webmanifest">
+    <link rel="mask-icon" href="/Image/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="Styles/styleIndex.css">
     <link rel="stylesheet" href="/Styles/NavStyle.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная страница</title>
+
     <script src="/Scripts/CheckCurrentList.js"></script>
 </head>
 
 <body>
     <div id="container">
         <div id="about">
-            <div id="about-left">
-
-                <table id="rectangles">
+            <div id="about_left">
+                <div id="stickers_my_photo__abot_left">
+                    <div class="sticker__div">
+                        <img id="circle_img" class="about_sticker" src="/Image/IndexAnimationImage/IinCircle.png">
+                    </div>
+                    <div class="sticker__div">
+                        <img id="square_img" class="about_sticker" src="/Image/IndexAnimationImage/IinSquare.png">
+                    </div>
+                    <div class="sticker__div">
+                        <img id="triangle_img" class="about_sticker" src="/Image/IndexAnimationImage/IinTriangle.png">
+                    </div>
+                </div>
+                <!--     <img id="photo-men" alt="no men" src="Image\Обрезанный я.png">-->
+                <!--  <table id="rectangles">
                     <tr>
                         <td>
                             <div class="rectangle" id="rectangle-min"></div>
@@ -29,21 +50,21 @@
                     </tr>
                 </table>
                 <div id="infoi">
-                    <!--<img id="photo-men" alt="no men" src="Image\man.png">-->
-                </div>
+                   <img id="photo-men" alt="no men" src="Image\man.png">
+                </div>-->
                 <!-- <img id="photo-men" alt="no men" src="Image\man.png">-->
             </div>
             <div id="about-right">
-                    <nav id="header_div">
-                        <div id="navigator">
-                            <ul id="nav-main">
-                                <li><a id="main_window_nav" href="/index.html">ГЛАВНАЯ</a></li>
-                                <li><a id="blog_nav" href="/Blog.html">БЛОГ</a></li>
-                                <li><a id="portfolio_nav" href="/Portfolio.html">ПРОЕКТЫ</a></li>
-                                <li><a id="directory_nav" href="/Directory.html">СПРАВОЧНИК</a></li>
-                            </ul>
-                        </div>
-                    </nav>
+                <nav id="header_div">
+                    <div id="navigator">
+                        <ul id="nav-main">
+                            <li><a id="main_window_nav" href="/index.html">ГЛАВНАЯ</a></li>
+                            <li><a id="blog_nav" href="/Blog.html">БЛОГ</a></li>
+                            <li><a id="portfolio_nav" href="/Portfolio.html">ПРОЕКТЫ</a></li>
+                            <li><a id="directory_nav" href="/Directory.html">СПРАВОЧНИК</a></li>
+                        </ul>
+                    </div>
+                </nav>
                 <div id="no-navы">
                     <div id="greetings">
                         <p id="hello">Привет, я</p>
@@ -60,7 +81,7 @@
                     </div>
                     <div id="Contact-Me">
                         <div>
-                            <p id="Contact-Text">Связаться со мной</p>
+                            <p id="Contact-Text" style="margin: 15 0 0 0 !important;">Связаться со мной</p>
                         </div>
                         <div id="Icon-Contact">
                             <ul id="icon_table">
@@ -69,8 +90,6 @@
                                 <li><img src="Image\VKIcon.svg" alt=""></li>
                                 <li><img src="Image\TelegramIcon.svg" alt=""></li>
                             </ul>
-
-
                         </div>
                     </div>
                 </div>

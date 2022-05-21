@@ -60,11 +60,11 @@ nav ul li a {
     width: 92px;
     height: 2px;
     background-color: white;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 #info-about_text {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 #info-about>ul {
@@ -89,25 +89,30 @@ nav ul li a {
 
 #no-navы {
     height: 100%;
-    padding-left: 200px;
+    padding-left: 50px;
 }
 
 #about-right {
-    width: 100%;
+    width: 50%;
     display: flexbox;
     height: 100%;
     border-color: black;
 }
 
+#about_left {
+    width: 50%;
+
+}
+
 #about-left {
-    width: 55%;
+
     margin-left: 0px;
     height: 100%;
     border-color: 1px yellow;
 }
 
 #greetings {
-    margin-top: 120px;
+    margin-top: 50px;
 }
 
 
@@ -121,10 +126,11 @@ nav ul li a {
     font-size: 48px;
     color: rgb(255, 255, 255);
     margin-top: 9px;
+    margin-bottom: 20px;
 }
 
 #Contact-Me {
-    margin-top: 50px;
+    margin-top: 15px;
     height: 100%;
 }
 
@@ -154,18 +160,21 @@ nav ul li a {
 #Icon-Contact>ul>li>img {
     width: 90px;
     height: 90px;
-
 }
 
 #Contact-Text {
+    margin: 15px 0px 15px 0px !important;
     font-size: 42px;
     color: rgb(167, 171, 183);
-    margin-top: 0%;
 }
 
 #photo-men {
-    width: 100%;
-    height: 100%;
+    /*  width: 100%;
+    height: 100%;*/
+    /*   width: 317px;
+    height: 450px;*/
+    width: 65%;
+    height: 80%;
 }
 
 #infoi {
@@ -173,10 +182,7 @@ nav ul li a {
     height: 100%;
 }
 
-#rectangles {
-    height: 100%;
-    width: 100%;
-}
+
 
 .rectangle {
     /*background-color: linear-gradient(rgb(106, 124, 174),rgb(106, 124, 174)) ;
@@ -216,4 +222,134 @@ table {
     text-decoration: 3px solid #FFFFFF;
     text-underline-offset: 10px;
     margin-bottom: 10px;
+}
+
+#stickers_my_photo__abot_left {
+    position: relative;
+    height: 100%;
+}
+
+.sticker__div {
+    height: 100px;
+    width: 100px;
+
+}
+
+.about_sticker {
+    position: absolute;
+}
+
+#circle_img {
+    position: relative;
+    top: 400;
+    height: 200px;
+    width: 200px;
+    -webkit-animation: circle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    animation: circle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    /* position: absolute;
+    top: 20 !important;
+    left: 100 !important;*/
+    /* animation: float2 70s ease infinite;
+    z-index: 1;
+    eight: 200px;
+    width: 200px;h*/
+}
+
+@-webkit-keyframes circle_anim {
+    0% {
+        -webkit-transform: translateY(0) translateX(0);
+        transform: translateY(0) translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100px) translateX(-100px);
+        transform: translateY(-100px) translateX(-100px);
+    }
+}
+
+@keyframes circle_anim {
+    0% {
+        -webkit-transform: translateY(0) translateX(0);
+        transform: translateY(0) translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100px) translateX(-100px);
+        transform: translateY(-100px) translateX(-100px);
+    }
+}
+
+
+#square_img {
+    /*animation: float2 70s ease infinite;*/
+    /*z-index: 2;*/
+    height: 240px;
+    width: 200px;
+    -webkit-animation: square_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    animation: square_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+
+}
+
+@-webkit-keyframes square_anim {
+    0% {
+        -webkit-transform: translateY(0) translateX(0);
+        transform: translateY(0) translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100px) translateX(100px);
+        transform: translateY(-100px) translateX(100px);
+    }
+}
+
+@keyframes square_anim {
+    0% {
+        -webkit-transform: translateY(0) translateX(0);
+        transform: translateY(0) translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100px) translateX(100px);
+        transform: translateY(-100px) translateX(100px);
+    }
+}
+
+
+#triangle_img {
+    -webkit-animation: triangle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    animation: triangle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    height: 220px;
+    width: 220px;
+}
+
+@-webkit-keyframes triangle_anim {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes triangle_anim {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    #Icon-Contact>ul>li>img {
+        width: 70px;
+        height: 70px;
+    }
 }

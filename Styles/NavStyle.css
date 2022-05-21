@@ -17,6 +17,10 @@
     margin-right: 0;
 }
 
+#nav-main{
+    margin-right: 15px;
+}
+
 #navigator ul li a {
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -34,5 +38,30 @@
     height: 75px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+}
+
+#navigator ul li:hover {
+    transform: scale(1.05);
+}
+@media screen and (min-width: 2000px) and (min-height: 700px)  {
+
+    #header{
+       height: 150px !important; 
+    }
+
+    #nav-main a{
+        font-size: 38px !important;
+    }
+}
+
+@media screen and (min-width: 1700px) and (min-height: 700px)  {
+
+    #header{
+       height: 125px !important; 
+    }
+
+    #nav-main a{
+        font-size: 27px !important;
+    }
 }
 

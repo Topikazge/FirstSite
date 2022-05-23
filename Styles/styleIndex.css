@@ -242,11 +242,12 @@ table {
 
 #circle_img {
     position: relative;
-    top: 400;
-    height: 200px;
-    width: 200px;
-    -webkit-animation: circle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
-    animation: circle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    top: 100px;
+    left: 300px;
+    height: 300px;
+    width: 300px;
+    -webkit-animation: circle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+    animation: circle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
     /* position: absolute;
     top: 20 !important;
     left: 100 !important;*/
@@ -284,10 +285,11 @@ table {
 #square_img {
     /*animation: float2 70s ease infinite;*/
     /*z-index: 2;*/
-    height: 240px;
-    width: 200px;
-    -webkit-animation: square_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
-    animation: square_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    height: 400px;
+    width: 300px;
+    z-index: -1;
+    -webkit-animation: square_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+    animation: square_anim 12scubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
 
 }
 
@@ -317,10 +319,12 @@ table {
 
 
 #triangle_img {
-    -webkit-animation: triangle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
-    animation: triangle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
-    height: 220px;
-    width: 220px;
+    -webkit-animation: triangle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+    animation: triangle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+    height: 320px;
+    width: 320px;
+    top: 300px;
+    left: 300px;
 }
 
 @-webkit-keyframes triangle_anim {

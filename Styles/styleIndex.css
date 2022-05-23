@@ -89,7 +89,7 @@ nav ul li a {
 }
 
 #no-navы {
-    height: 100%;
+    height: auto;
     padding-left: 50px;
 }
 
@@ -132,7 +132,7 @@ nav ul li a {
 
 #Contact-Me {
     margin-top: 15px;
-    height: 100%;
+    height: auto;
 }
 
 #Icon-Contact {
@@ -246,8 +246,12 @@ table {
     left: 300px;
     height: 300px;
     width: 300px;
-    -webkit-animation: circle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+    -webkit-animation: circle_anim 11s linear 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
     animation: circle_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    -o-animation-delay: 0.7s;
+    animation-delay: 0.7s;
     /* position: absolute;
     top: 20 !important;
     left: 100 !important;*/
@@ -285,10 +289,14 @@ table {
 #square_img {
     /*animation: float2 70s ease infinite;*/
     /*z-index: 2;*/
-    height: 400px;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    height: 470px;
     width: 300px;
     z-index: -1;
-    -webkit-animation: square_anim 12s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+    -webkit-animation: square_anim 11s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
     animation: square_anim 12scubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
 
 }

@@ -117,3 +117,17 @@ h1{
     height: 400px;
     width: 600px;
 }
+
+.link_direction, .link_direction:hover, .link_direction:visited, .link_direction:active{
+    color: rgb(167, 171, 183);
+    font-size: 24px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-color: white;
+    text-decoration-line: underline;
+}
+
+

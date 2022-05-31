@@ -6,7 +6,7 @@ function GoToArticle(article,nameDoc){
 }
 
 function jjjj(nameDoc) {
-    if(document.)
+    if(document)
     var xhr = new XMLHttpRequest();
     alert('1 - ')
     xhr.open('GET', nameDoc+'.html', true);

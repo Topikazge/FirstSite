@@ -17,9 +17,7 @@
     margin-right: 0;
 }
 
-#nav-main{
-    margin-right: 15px;
-}
+
 
 #navigator ul li a {
     font-family: Arial, Helvetica, sans-serif;
@@ -30,6 +28,7 @@
 }
 
 #nav-main {
+    margin-right: 15px;
     height: 30px !important;
     padding-top: 15px;
     padding-bottom: 15px;

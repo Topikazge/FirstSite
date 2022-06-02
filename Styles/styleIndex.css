@@ -149,18 +149,26 @@ nav ul li a {
     display: inline;
     margin-left: 0px;
     padding-left: 15px;
+    height: 100% !important;
 }
+
 
 #Icon-Contact>ul>li {
     list-style-type: none;
     display: inline;
     margin-right: 50px;
     margin-left: 0px;
+    height: 100%  !important;
 }
 
-#Icon-Contact>ul>li>img {
-    width: 90px;
-    height: 90px;
+#Icon-Contact>ul>li>img{
+    height: 90px  !important;
+    height: 90px  !important;
+}
+
+#Icon-Contact>ul>li>a {
+    height: 90px !important;
+    height: 90px  !important;
 }
 
 #Contact-Text {

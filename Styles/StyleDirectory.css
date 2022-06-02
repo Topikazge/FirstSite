@@ -147,10 +147,11 @@ a:visited {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 17px;
     margin-bottom: 5px;
     color: #000000;
+    margin-bottom: 0;
 }
 
 #sub_name_Article {
@@ -158,8 +159,8 @@ a:visited {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 39px;
+    font-size: 17px;
+    line-height: 25px;
     color: #000000;
     margin: 0px 0px 0px 0px;
 }
@@ -320,3 +321,4 @@ code {
     width: 15px;
     height: 15px;
 }
+

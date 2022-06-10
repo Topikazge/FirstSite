@@ -39,6 +39,14 @@
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
+#logo{
+    padding-top: 30px;
+    padding-left: 370px;
+    height: 30px;
+    width:  120px;
+}
+
+
 
 #navigator ul li:hover {
     transform: scale(1.05);
